@@ -24,6 +24,7 @@ class WeatherActivity : AppCompatActivity() {
 
             val results = weatherRepo.searchWeatherRepo("London")
             Log.d("WeatherActivity", "Results = ${results.body()}")
+
             }
     }
 }
